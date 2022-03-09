@@ -76,7 +76,7 @@ class LineComparision:
                 if (self.line_list[i].calculate_length()).__eq__(self.line_list[j].calculate_length()):
                     print(f"{self.line_list[i]}  is equal to {self.line_list[j]}")
                 else:
-                    print(f"{str(self.line_list[i])}  is not equal to {str(self.line_list[j])}")
+                    print(f"{self.line_list[i]}  is not equal to {self.line_list[j]}")
 
 
 if __name__ == "__main__":

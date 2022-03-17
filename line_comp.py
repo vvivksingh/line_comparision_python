@@ -44,7 +44,7 @@ class LineComparision:
             print(f"{line1_name} is smaller than {line2_name}")
 
     def add_line(self, ):
-        line_len_dict.update({name: l_length})
+        line_len_dict[name] = l_length
 
     def display(self):
         print(line_len_dict)
